@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body style="background-color: skyblue;"><br><br>
+    <form>
+        <label for="fname">Firstname:</label>
+        <input type="text" id="fname" name="firstname"><br><br>
+        <label for="mname">Middlename</label>
+        <input type="text" id="mname" name="middlename"><br><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" id="lname" name="lastname"><br><br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="default">Course</option>
+            <option value="bsit">BSIT</option>
+            <option value="bscs">BSCS</option>
+            <option value="bsis">BSIS</option>
+            <option value="blis">BLIS</option>
+        </select><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="+63" style="width: 35px;">
+        <input type="text" name="phone" id="phone" style="width: 100px;"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" style="height: 70px; width: 500px;"></textarea><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br><br>
+
+        <label for="retypepass">Re-type password:</label>
+        <input type="password" id="retypepass" name="retypepass"><br><br>
+
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>
